@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batalha de Rap de Belford Roxo Itinerante – Praça de Heliópolis</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <header>
+    <img src="/static/images/logo-batalha.jpg" alt="Logo Batalha de Rap" />
+    <h1>Batalha de Rap de Belford Roxo</h1>
+    <p>29 de Maio • Quinta-feira • 18h</p>
+    <p>
+      Local:&nbsp;
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=R.+Geraldo+Macedo+-+Heliópolis,+Belford+Roxo+-+RJ,+26140-100"
+        target="_blank"
+        class="map-link"
+      >
+        Praça de Heliópolis / Belford Roxo
+      </a>
+    </p>
+  </header>
+
+  <main class="com-banner">
+    <div class="conteudo">
+      <section class="card flex-row">
+        <div>
+          <h2>Premiação</h2>
+          <p>R$ 200,00</p>
+        </div>
+        <div>
+          <h2>Organização</h2>
+          <p>LC do Cantão<br/>Jorrado<br/>Athos Gomes</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Participações e Apoio</h2>
+        <p>Mestre de Cerimônia: WL&nbsp;BXD</p>
+        <p>Magali&nbsp;BXD</p>
+        <p>DJ&nbsp;Sandro&nbsp;Salles</p>
+      </section>
+
+      <section class="card">
+        <h2>Apoio Cultural</h2>
+        <p>Secretário Municipal de Cultura: André Carvalho</p>
+        <p>Secretário: Marcelo Canella</p>
+        <p>Prefeito: Márcio Canella</p>
+        <p>Patrocínio: LC&nbsp;Pizzaria&nbsp;Delivery, Nunes&nbsp;Palace</p>
+      </section>
+    </div>
+
+    <aside class="lateral-direita">
+      <section class="card">
+        <h2>Confirmação de Presença</h2>
+        <button onclick="confirmarPresenca()">Confirmar Presença</button>
+        <p id="contador" style="margin-top:.5rem;font-weight:bold;color:var(--accent-light);">
+          Carregando...
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Comentários</h2>
+        <input type="text" id="nome" placeholder="Seu nome (opcional)" style="margin-bottom: .5rem; width: 100%; padding: 0.5rem; border-radius: 6px; border: none;">
+        <textarea id="comentario" placeholder="Deixe seu comentário aqui..."></textarea>
+        <button style="margin-top:.75rem;" onclick="adicionarComentario()">Enviar Comentário</button>
+        <ul id="lista-comentarios"></ul>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="banner-lateral">
+      <img src="/static/images/batalha-de-rima-banner.jpeg" alt="Banner Batalha de Rap" />
+    </div>
+
+    <div class="galeria-fotos">
+      <img src="/static/images/foto1.jpeg" alt="Foto 1" />
+      <img src="/static/images/foto2.jpeg" alt="Foto 2" />
+      <img src="/static/images/foto3.jpeg" alt="Foto 3" />
+      <img src="/static/images/foto4.jpeg" alt="Foto 4" />
+      <img src="/static/images/foto5.jpeg" alt="Foto 5" />
+      <img src="/static/images/foto6.jpeg" alt="Foto 6" />
+    </div>
+    <p>© 2025 Batalha de Rap – Todos os direitos reservados</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
