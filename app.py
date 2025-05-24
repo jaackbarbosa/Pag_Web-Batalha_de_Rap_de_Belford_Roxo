@@ -6,8 +6,8 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-CONFIRMADOS_PATH = "batalha/data/confirmados.json"
-COMENTARIOS_PATH = "batalha/data/comentarios.json"
+CONFIRMADOS_PATH = "/data/confirmados.json"
+COMENTARIOS_PATH = "/data/comentarios.json"
 
 # Inicialização
 os.makedirs("data", exist_ok=True)
